@@ -8,7 +8,7 @@
 html, body {
     height: 100%;
     background-color: #5a55584f;
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 .clear {
