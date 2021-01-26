@@ -8,6 +8,7 @@
 html, body {
     height: 100%;
     background-color: #5a55584f;
+    overflow-x: hidden;
 }
 
 .clear {
@@ -34,7 +35,7 @@ html, body {
     background-repeat: no-repeat;
     position: fixed;
     bottom: 25px;
-    /*right: 25px;*/
+    right: 25px;
     color: white;
     background-position: bottom 13px left 12px;
     cursor: pointer;
