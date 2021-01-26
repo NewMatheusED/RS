@@ -20,7 +20,7 @@ html, body {
 
 .all-container {
     max-width: 1400px;
-    width: 100%;
+    width: auto;
 }
 
 .back-to-top-button {
