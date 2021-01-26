@@ -131,6 +131,7 @@ nav.mobile ul {
     list-style-type: none;
     text-align: center;
     border-bottom: 3px solid #fff;
+    z-index: 999;
 }
 
 nav.mobile ul li {
@@ -326,6 +327,11 @@ section h1 {
     height: 40px;
     border-radius: 50%;
     background-color: grey;
+}
+
+.social .social-media:hover {
+    position: relative;
+    top: -10px;
 }
 
 footer {
