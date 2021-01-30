@@ -8,7 +8,8 @@
 html, body {
     height: 100%;
     background-color: #5a55584f;
-    overflow-x: clip;
+    overflow-x: hidden;
+    display: contents;
 }
 
 .clear {
@@ -17,11 +18,6 @@ html, body {
 
 ::selection {
     background: rgba(178,153,95,1);;
-}
-
-.all-container {
-    max-width: 1400px;
-    width: auto;
 }
 
 .back-to-top-button {
@@ -174,7 +170,7 @@ nav.mobile ul li:hover {
     margin-top: 10px;
 }
 
-section #servicos {
+#servicos {
     width: auto;
     height: auto;
 }
@@ -194,9 +190,9 @@ section h1 {
 
 .box-servicos {
     width: calc(100% / 4);
-    height: 1200px;
+    height: 450px;
     padding: 2%;
-    background-size: 200% 35%;
+    background-size: 200% 100%;
     background-repeat: no-repeat;
     margin: 0 2px;
     color: white;
@@ -228,8 +224,6 @@ section h1 {
 
 #sobre {
     margin: 50px 2%;
-    position: relative;
-    top: -750px;
     height: auto;
     width: auto;
 }
@@ -394,18 +388,6 @@ footer p {
 
     #sobre {
         margin: 50px 2%;
-        position: relative;
-        top: 0px;
-    }
-
-    #contato {
-        top: 720px;
-        position: relative;
-    }
-
-    footer {
-        position: relative;
-        bottom: -700px;
     }
 }
 
@@ -438,16 +420,6 @@ footer p {
     .actor-individual {
         margin-bottom: 30px;
     }
-
-    #contato {
-        top: 1200px;
-        position: relative;
-    }
-
-    footer {
-        position: relative;
-        bottom: -1220px;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -458,34 +430,5 @@ footer p {
     .box-servicos {
         width: 100%;
         padding: 50px;
-    }
-
-    #contato {
-        top: 1300px;
-        position: relative;
-    }
-
-    footer {
-        position: relative;
-        bottom: -1320px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    #contato {
-        top: 1400px;
-        position: relative;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    #contato {
-        top: 1450px;
-        position: relative;
-    }
-
-    footer {
-        position: relative;
-        bottom: -1470px;
     }
 }
