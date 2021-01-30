@@ -67,7 +67,7 @@ html, body {
 
 header {
     height: 90vh;
-    width: 100%;
+    width: auto;
     background-image: url(../images/slider1.png);
     padding: 20px 2%;
     background-position: center;
@@ -230,7 +230,8 @@ section h1 {
     margin: 50px 2%;
     position: relative;
     top: -750px;
-    height: 390px;
+    height: auto;
+    width: auto;
 }
 
 #sobre .img {
@@ -298,6 +299,7 @@ section h1 {
 #contato {
     height: auto;
     margin: 100px 2%;
+    width: auto;
 
 }
 
