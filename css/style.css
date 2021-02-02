@@ -120,12 +120,16 @@ nav.mobile {
     background-image: url(../images/menu.png);
     background-size: 100% 100%;
     float: right;
+    position: fixed;
+    top: 17px;
+    right: 17px;
+    z-index: 999;
 }
 
 nav.mobile ul {
     display: none;
     background-color: #29272A;
-    position: absolute;
+    position: fixed;
     width: 100%;
     left: 0;
     top: 95px;
