@@ -3,6 +3,10 @@ $(function(){
         $('.mobile ul').slideToggle();
     })
 
+    $('nav.desktop ul li a,nav.mobile ul li a').click(function(){
+        $('.mobile ul').slideToggle();
+    })
+
     //-----------------------------------------//
 
     var topo = $('.back-to-top-button')
