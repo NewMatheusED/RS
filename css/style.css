@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    display: contents;
 }
 
 html, body {
     height: 100%;
     background-color: #5a55584f;
-    overflow-x: hidden;
-    display: contents;
 }
 
 .clear {
