@@ -26,6 +26,5 @@ $(function(){
         $('.chamada1').css('position', 'relative')
         $('.chamada1').css('right', value * 1.2 + 'px')
         $('.chamada1').css('top', value * 0.2 + 'px')
-        console.log(value)
     })
 })
