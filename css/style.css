@@ -106,11 +106,39 @@ header ul li {
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
+    position: relative;
 }
 
-header ul li:hover {
-    border-bottom: 1px solid white;
-    transition: .5s;
+nav.desktop ul li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 2px;
+    background: #fff;
+    transform: scaleX(0);
+    transition: transform 500ms ease;
+}
+
+nav.desktop ul li:nth-child(1)::after {
+    width: 48px;
+}
+
+nav.desktop ul li:nth-child(2)::after {
+    width: 67px;
+}
+
+nav.desktop ul li:nth-child(3)::after {
+    width: 47px;
+}
+
+nav.desktop ul li:nth-child(4)::after {
+    width: 65px;
+}
+
+nav.desktop ul li:hover::after {
+    transform: scaleX(1);
 }
 
 nav.mobile {
