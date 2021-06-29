@@ -14,12 +14,14 @@
     <title>Sergio Eduardo Gomes - Advogados Associados</title>
 </head>
 <body>
-        <div id="home" class="back-to-top-location"></div>
-        <div class="back-to-top-button"><!--<i class="fas fa-chevron-up"></i>--></div>
+        <!--<div id="home" class="back-to-top-location"></div>-->
+        <!--<div class="back-to-top-button"><i class="fas fa-chevron-up"></i></div>-->
         <div class="whats-btn">
-            <a target="_blank" href="https://web.whatsapp.com/send?phone=5511983082444&te"><img src="images/whats.png"></a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5511983082444&text=Olá,%20boa%20tarde!"><img src="images/whats.png"></a>
         </div>
-    <header>
+        <div class="clear"></div>
+    <header style="background-image: url(images/slider1.png);">
+        <div class="container">
             <img src="images/logo.png">
             <nav class="desktop">
                 <ul>
@@ -27,6 +29,7 @@
                     <li><a href="#servicos">Serviços</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#contato">Contato</a></li>
+                    <div class="clear"></div>
                 </ul>
             </nav><!--desktop-->
 
@@ -36,20 +39,25 @@
                     <li><a href="#servicos">Serviços</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#contato">Contato</a></li>
+                    <div class="clear"></div>
                 </ul>
-            </nav><!--desktop-->
+            </nav><!--mobile-->
+            <div class="clear"></div>
             <div data-aos="fade-left" data-aos-duration="1000" class="chamada1">
                 <h1>Advocacia na prática</h1>
                 <p>Abordando diretamente o ponto, com excelência no atendimento, compromisso e foco na resolução do caso.</p>
-            </div>
+                <div class="clear"></div>
+            </div><!--chamada1-->
+            </div><!--container-->
     </header>
 
     <section id="servicos">
+        <div class="container">
         <div class="line-title">
             <div class="ln1"></div>
             <h1>Áreas de atuação</h1>
         </div><!--line-title-->
-        <div class="container">
+        <div class="container-box">
             <div data-aos="fade-up" data-aos-delay="100" class="box-servicos"style="background-image: url(images/slider3nf2.png); background-position-x: right -90px;  ">
                 <img src="images/perfil1.png">
                 <h1>Direito Penal</h1>
@@ -79,10 +87,12 @@
                 <br/>
                 <a href="arbitragem.html" class="btn-more">Conheça mais!</a>
             </div>
+        </div><!--container-box-->
         </div><!--container-->
     </section>
 
     <section id="sobre">
+        <div class="container">
         <div class="line-title">
             <div class="ln1"></div>
             <h1>Sobre nós</h1>
@@ -105,9 +115,11 @@
                 <div class="clear"></div>
             </div>actor-individual -->
         </div><!--container-flex-->
+        </div><!--container-->
     </section>
     
     <section id="contato">
+        <div class="container">
         <div class="line-title">
             <div class="ln1"></div>
             <h1>Contato</h1>
@@ -137,13 +149,17 @@
 
             <div data-aos="fade-up" data-aos-delay="500"  class="social-media">
                 <!--<img src="">-->
-            </div><!--social-->
-        </div>
+            </div>
+            
+        </div><!--social-->
+        </div><!--container-->
     </section>
 
     <footer>
+        <div class="container">
         <img src="images/logo.png">
         <p>Todos os direitos reservados</p>
+        </div><!--container-->
     </footer>
 <script>
     new ClipboardJS('.btn');
@@ -154,5 +170,6 @@
 <script>
     AOS.init();
 </script>
+<script>$('.far').click(function(){alert('copiado!')})</script>
 </body>
 </html>
