@@ -28,3 +28,11 @@ $(function(){
         $('.chamada1').css('top', value * 0.2 + 'px')
     })
 })
+
+    //-----------------------------------------//
+    
+    var formerY = 0;
+    
+    $("html").on("scroll", function(e){
+        $(e.target).scrollRight(formerY);
+    });
